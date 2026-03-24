@@ -38,27 +38,32 @@ clasp create --title "Nombre del Proyecto en Google" --rootDir ./src
 
 -----
 
-🔄 Flujo de Trabajo Diario
-💻 Desarrollo
+## 🔄 Flujo de Trabajo Diario
+
+### 💻 Desarrollo
+
 Abre el taller: code .
 
 Escribe tu código siempre dentro de la carpeta /src.
 
 Limpiar formato: Antes de guardar, corre npm run format para que el código se ordene solo.
 
-📤 Sincronización con Google
+### 📤 Sincronización con Google
+
 Subir cambios: clasp push (Envía lo que tienes en VS Code a la nube).
 
 Bajar cambios: clasp pull (Si editaste algo directamente en el navegador).
 
-🛡️ Guardar en GitHub (Control de Versiones)
+### 🛡️ Guardar en GitHub (Control de Versiones)
+
 Haz esto cada vez que termines una función o un avance importante:
 
 git add .
 git commit -m "feat: descripción breve de lo que agregaste"
 git push origin main
 
-📁 Estructura del Proyecto
+### 📁 Estructura del Proyecto
+
 src/: Todo el código fuente (.gs y .html). Es lo único que sube a Google.
 
 .gitignore: Evita que tus claves privadas se suban a internet.
